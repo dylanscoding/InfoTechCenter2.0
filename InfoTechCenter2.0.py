@@ -8,11 +8,11 @@ print("\033[1;32m This text is Bright Green  \n")
 print("Welcome to Hornet's Info Tech Center!\n")
 sleep(1)
 print("\033[1;37;40m Hornet's Operating System Booting Up!")
+sleep(1)
 # Gas Level Function
 def gasLevelGauge():
     gasLevelList = ["Empty Tank", "Low Tank", "Quarter Tank", "Half Tank", "3 Quarters Tank", "Full Tank"]
     currentGasLevel = random.choice(gasLevelList)
-    return currentGasLevel
 ###
 
 # Variable calls the value of gas Level Gauge Function
@@ -39,3 +39,4 @@ def gasLevelAlert():
 
 # Calls the Alert function
 gasLevelAlert()
+    return currentGasLevel
