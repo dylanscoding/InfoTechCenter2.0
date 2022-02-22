@@ -13,6 +13,7 @@ sleep(1)
 def gasLevelGauge():
     gasLevelList = ["Empty Tank", "Low Tank", "Quarter Tank", "Half Tank", "3 Quarters Tank", "Full Tank"]
     currentGasLevel = random.choice(gasLevelList)
+    return currentGasLevel
 ###
 
 # Variable calls the value of gas Level Gauge Function
@@ -39,4 +40,3 @@ def gasLevelAlert():
 
 # Calls the Alert function
 gasLevelAlert()
-    return currentGasLevel
