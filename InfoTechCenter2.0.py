@@ -1,9 +1,8 @@
 # Codename Hornet
 # https://realpython.com/python-sleep/#adding-a-python-sleep-call-with-timesleep
 # https://ozzmaker.com/add-colour-to-text-in-python/
-import random
 
-## Welcome Script
+import random
 
 from time import sleep  # imports the sleep function from time
 print("\033[1;32m This text is Bright Green  \n")
@@ -12,7 +11,7 @@ sleep(1)
 print("\033[1;37;40m Hornet's Operating System Booting Up!")
 sleep(1)
 
-## Gas Script
+
 
 # Gas Level Function
 def gasLevelGauge():
@@ -45,6 +44,8 @@ def gasLevelAlert():
 
 # Calls the Alert function
 gasLevelAlert()
+
+
 
 ## Weather Branch
 
